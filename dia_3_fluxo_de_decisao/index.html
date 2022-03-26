@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#7DaysOfCode - Fluxo de decisão</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main>
+        <form>
+            <div class="area_a_seguir">
+                <p>Qual área deseja seguir?</p>
+
+                <div class="escolha_area">
+                    <div>
+                        <input type="radio" name="area" id="front_end" value="front_end">
+                        <label for="front_end">Front end</label>
+                    </div>
+                
+                    <div>
+                        <input type="radio" name="area" id="back_end" value="back_end">
+                        <label for="back_end">Back end</label>
+                    </div>
+                </div>
+
+                <button class="btn_area">Enviar informação</button>
+            </div>
+
+            <div class="area_aprendizado">
+                <div class="area_front">
+                    <label for="escolha_front">O que deseja aprender?</label>
+                
+                    <select name="escolha_front" id="escolha_front">
+                        <option value="react">React</option>
+                        <option value="vue">Vue</option>
+                    </select>
+                </div>
+    
+                <div class="area_back">
+                    <label for="escolha_back">O que deseja aprender?</label>
+               
+                    <select name="escolha_front" id="escolha_back">
+                        <option value="java">Java</option>
+                        <option value="c#">C#</option>
+                    </select>
+                </div>
+
+                <button class="btn_aprendizado">Enviar informação</button>
+            </div>
+
+            <div class="desenvolvimento_profissional">
+                <p>Como você se desenvolverá profissionalmente?</p>
+
+                <div class="escolha_profissional">
+                    <div>
+                        <input type="radio" name="escolha_profissional" id="especializar" value="especializar">
+                        <label for="especializar">Seguir se especializando na área escolhida</label>
+                    </div>
+
+                    <div>
+                        <input type="radio" name="escolha_profissional" id="fullstack" value="fullstack">
+                        <label for="fullstack">Seguir se desenvolvendo para se tornar fullstack</label>
+                    </div>
+                </div>
+
+                <button class="btn_profissional">Enviar informação</button>
+            </div>
+        </form>
+    </main>
+
+    <script src="script/script.js"></script>
+</body>
+</html>
