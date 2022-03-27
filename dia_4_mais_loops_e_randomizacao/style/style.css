@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(76,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+main h1 {
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.randomizacao {
+    background-color: #fff;
+    padding: 30px;
+}
+
+.randomizacao p {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+
+.randomizacao .tentativa .btn_tentativa {
+    padding: 5px 10px;
+    background-color: #00d4ff;
+    color: #fff;
+    border: 1px solid #00d4ff;
+    cursor: pointer;
+}
